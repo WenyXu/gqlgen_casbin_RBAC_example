@@ -1,0 +1,12 @@
+p, admin, domain1, todo, Text, read
+p, admin, domain1, todo, Text, write
+p, admin, domain1, todo, UserID, read
+p, admin, domain1, todo, UserID, write
+
+p, admin, domain2, table1, data2, read
+p, admin, domain2, table1, data2, write
+p, admin, domain2, table2, data2, read
+p, admin, domain2, table2, data2, write
+
+g, user, admin, domain1
+g, user2, admin, domain2
